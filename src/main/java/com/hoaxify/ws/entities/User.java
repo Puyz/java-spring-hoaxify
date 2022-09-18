@@ -56,7 +56,7 @@ public class User implements UserDetails{
 	@Column(name = "PASSWORD")
 	private String password;
 	
-	//@Lob // Large Object -> Değer uzunluğu fazla olduğu için Lob kullanıyoruz.
+	//@Lob // Large Object -> Değer uzunluğu fazla olursa Lob kullanıyoruz.
 	@Column(name = "IMAGE")
 	private String image;
 	

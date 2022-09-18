@@ -18,13 +18,9 @@ public class WsApplication {
 		SpringApplication.run(WsApplication.class, args);
 	}
 	
-
-	
 	/*@Bean
-	
 	CommandLineRunner createInitialUsers(IUserService userManager, IHoaxService hoaxManager) {
 		return new CommandLineRunner() {
-			
 			@Override
 			public void run(String... args) throws Exception {
 				for (int i = 1; i <= 22; i++) {

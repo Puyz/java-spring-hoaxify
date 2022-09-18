@@ -21,7 +21,7 @@ public class WsApplication {
 
 	
 	/*@Bean
-	@Profile("dev") // sadece Profile dev olduğunda çalışsın demiş olduk.
+	
 	CommandLineRunner createInitialUsers(IUserService userManager, IHoaxService hoaxManager) {
 		return new CommandLineRunner() {
 			
